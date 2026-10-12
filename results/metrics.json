@@ -1,0 +1,39 @@
+{
+  "oof_comparison": [
+    {
+      "model": "Random Forest",
+      "ROC-AUC": 0.791,
+      "Brier": 0.1665,
+      "best threshold": 0.235,
+      "cost / applicant": 0.5133,
+      "cost @ 0.5": 1.0267
+    },
+    {
+      "model": "Gradient Boosting",
+      "ROC-AUC": 0.7915,
+      "Brier": 0.1646,
+      "best threshold": 0.165,
+      "cost / applicant": 0.52,
+      "cost @ 0.5": 0.9387
+    },
+    {
+      "model": "Logistic Regression",
+      "ROC-AUC": 0.7746,
+      "Brier": 0.1691,
+      "best threshold": 0.11,
+      "cost / applicant": 0.532,
+      "cost @ 0.5": 0.9467
+    }
+  ],
+  "threshold": 0.235,
+  "final_model": "Random Forest",
+  "test_roc_auc": 0.8131,
+  "test_gini": 0.6262,
+  "test_ks": 0.5371,
+  "test_cost_per_applicant": 0.524,
+  "test_cost_at_0.5": 0.956,
+  "test_cost_reject_all": 0.7,
+  "defaulters_caught": "65/75",
+  "good_approved": "94/175",
+  "scorecard_auc": 0.8004
+}

@@ -1,0 +1,41 @@
+feature,attribute,points
+status,... < 100 DM,45
+status,... >= 200 DM / salary for at least 1 year,67
+status,0 <= ... < 200 DM,54
+status,no checking account,88
+credit_history,all credits at this bank paid back duly,53
+credit_history,critical account/other credits existing,84
+credit_history,delay in paying off in the past,66
+credit_history,existing credits paid back duly till now,65
+credit_history,no credits taken/all credits paid back duly,50
+savings,... < 100 DM,47
+savings,... >= 1000 DM,73
+savings,100 <= ... < 500 DM,58
+savings,500 <= ... < 1000 DM,66
+savings,unknown/no savings account,75
+duration,"(0, 12]",80
+duration,"(12, 24]",60
+duration,"(24, 36]",56
+duration,"(36, 100]",58
+amount,"(0, 1500]",64
+amount,"(1500, 4000]",75
+amount,"(4000, 8000]",63
+amount,"(8000, 30000]",53
+purpose,business,68
+purpose,car (new),55
+purpose,car (used),83
+purpose,domestic appliances,69
+purpose,education,58
+purpose,furniture/equipment,70
+purpose,others,64
+purpose,radio/television,63
+purpose,repairs,63
+purpose,retraining,43
+age,"(0, 25]",57
+age,"(25, 35]",63
+age,"(35, 50]",72
+age,"(50, 100]",62
+property,building society savings agreement/life insurance,67
+property,car or other,64
+property,real estate,73
+property,unknown/no property,50
